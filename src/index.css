@@ -30,6 +30,7 @@ header nav {
 
 a {
   color: teal;
+  text-decoration: none;
 }
 
 a:hover {
@@ -40,6 +41,11 @@ a:hover {
 ul,
 ol {
   padding-left: 1rem;
+}
+
+.details {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 p[role="alert"] {
