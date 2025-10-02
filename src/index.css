@@ -28,6 +28,11 @@ header nav {
   gap: 1ch;
 }
 
+h2,
+h3 {
+  margin-top: 5px;
+}
+
 a {
   color: teal;
   text-decoration: none;
@@ -48,6 +53,21 @@ ol {
   margin-top: 10px;
 }
 
+.sets {
+  padding-bottom: 10px;
+}
+
 p[role="alert"] {
   color: red;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 2px;
+}
+
+.set-button {
+  width: 30%;
 }

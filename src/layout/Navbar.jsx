@@ -12,8 +12,18 @@ export default function Navbar() {
             isPending ? "pending" : isActive ? "active" : ""
           }
         >
-          Activites
+          Activities
         </NavLink>
+
+        <NavLink
+          to="/routines"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
+          Routines
+        </NavLink>
+
         <NavLink
           to="/register"
           className={({ isActive, isPending }) =>

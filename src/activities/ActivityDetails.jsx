@@ -56,7 +56,7 @@ export default function ActivityDetails() {
         {error && <p role="alert">{error}</p>}
       </section>
 
-      <Link to="/activities"> back to activites</Link>
+      <Link to="/activities"> back to activities</Link>
     </div>
   );
 }
